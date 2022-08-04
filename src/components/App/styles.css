@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .StripeElement {
+    margin: 15px auto;
+    padding: 10px 12px;
+    color: #32325d;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+  }
+  
+  .product {
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .btn-pay {
+    display: block;
+    width: 100%;
+    border: none;
+    background: linear-gradient(
+      135deg,
+      rgb(49, 0, 62) 0%,
+      rgb(195, 40, 110) 100%
+    );
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .product-info {
+    padding: 0 16px;
+  }
+  
+  h3.product-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  h4.product-price {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 30px;
+    color: #777;
+    font-weight: 500;
+  }
+
+  .container-fluid {
+    width: 63%;
+  }
+  
+  .padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .cart .container-fluid {
+      width: 85%;
+    }
+  
+    .yourcart {
+      padding-top: 20px;
+    }
+    .alignment-order {
+      padding-bottom: 10px;
+    }
+    .paypal-m {
+      padding-left: 130px;
+    }
+    .credit {
+      width: 220%;
+    }
+    .mastercard {
+      padding-left: 30px;
+    }
+  }
+  .yourcart {
+    padding-top: 68px;
+    font-size: var(--font-size-24px);
+    font-weight: var(--font-weight-500);
+    line-height: 28px;
+  }
+  input[type="text"] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    /* border: 1px solid #ccc; */
+    border: none;
+    box-sizing: border-box;
+    background: #f3f3f3;
+  }
+  .label-align {
+    padding-top: 22px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+  }
+  .shipping .payment input {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+  }
+  .payment input {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+  }
+  .payment {
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+  }
+  .credit {
+    background-color: #22669c;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+  }
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+  }
+  .card-icon {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .continue1 {
+    padding-top: 0px;
+  }
+  .continue1 button {
+    background-color: #22669c;
+    /* box-shadow: 0px 8px 16px rgba(30, 30, 30, 0.3); */
+    border-radius: 8px;
+    border: none;
+    padding: 10px 0px;
+    color: white;
+    width: 30%;
+  }
+  .continue button {
+    background-color:'white';
+    /* box-shadow: 0px 8px 16px rgba(30, 30, 30, 0.3); */
+    border-radius: 8px;
+    border: none;
+    padding: 10px 0px;
+    color: white;
+    width: 0.00001%;
+    cursor:context-menu
+    ;
+  }
+.testing{
+  
+  margin-left:120px;
+  margin-right:120px;
+  align-items:row;
+  padding-left:110px;
+  padding-right:160px;
+}
